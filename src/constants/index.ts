@@ -151,22 +151,45 @@ export const Skill_data = [
     },
   ];
   
-  export const Backend_skill = [
-    {
-      skill_name: "Fire base",
-      image: "/Firebase-min.png",
-      width: 55,
-      height: 55,
-    }
-  ];
-  
-  export const Full_stack = [
-  
+  export const Design_skill = [
     {
       skill_name: "Figma",
       image: "/figma-min.png",
       width: 50,
       height: 50,
     },
+  ];
+  
+  export const Full_stack = [
+ {
+      skill_name: "Mongo DB",
+      image: "/mongodb.png",
+      width: 200,
+      height: 200,
+    },
+    {
+      skill_name: "Express JS",
+      image: "/expressJS.png",
+      width: 80,
+      height: 80,
+    },
+    {
+      skill_name: "React",
+      image: "/react-min.png",
+      width: 80,
+      height: 80,
+    },
+    {
+      skill_name: "Node Js",
+      image: "/Node.png",
+      width: 100,
+      height: 100,
+    },
+    {
+      skill_name: "Fire base",
+      image: "/Firebase-min.png",
+      width: 55,
+      height: 55,
+    }
   
   ];

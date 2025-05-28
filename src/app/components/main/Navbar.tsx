@@ -8,9 +8,8 @@ const Navbar = () => {
     
     {/* Logo Section */}
     <a href="#" className="flex items-center">
-      <Image src="/NavLogo-min.png" alt="Navbar Logo" width={50} height={50} className="cursor-pointer hover:animate-spin" style={{ animationDuration: "10s" }} />
       <span className="font-bold ml-2 hidden md:block text-gray-300">
-        Web Development
+        Taj's Portfolio
       </span>
     </a>
 

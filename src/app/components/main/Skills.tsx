@@ -1,4 +1,4 @@
-import { Frontend_skill, Backend_skill, Full_stack, Programming_Skills } from "@/constants/index"
+import { Frontend_skill, Design_skill, Full_stack, Programming_Skills } from "@/constants/index"
 import SkillDataProvider from "@/app/components/sub/SkillDataProvider"
 import SkillText from "@/app/components/sub/SkillText"
 
@@ -29,6 +29,18 @@ const Skills = () => {
         ))}
       </div>
 
+            <div className='flex flex-row justify-around flex-wrap mt-4 gap-5 items-center'>
+        {Full_stack.map((skill: Skill, index: number) => (
+          <SkillDataProvider 
+            key={index}
+            src={skill.image}
+            width={skill.width}
+            height={skill.height}
+            index={index}
+          />
+        ))}
+      </div>
+
       <div className='flex flex-row justify-around flex-wrap mt-4 gap-5 items-center'>
         {Programming_Skills.map((skill: Skill, index: number) => (
           <SkillDataProvider 
@@ -42,19 +54,7 @@ const Skills = () => {
       </div>
 
       <div className='flex flex-row justify-around flex-wrap mt-4 gap-5 items-center'>
-        {Backend_skill.map((skill: Skill, index: number) => (
-          <SkillDataProvider 
-            key={index}
-            src={skill.image}
-            width={skill.width}
-            height={skill.height}
-            index={index}
-          />
-        ))}
-      </div>
-
-      <div className='flex flex-row justify-around flex-wrap mt-4 gap-5 items-center'>
-        {Full_stack.map((skill: Skill, index: number) => (
+        {Design_skill.map((skill: Skill, index: number) => (
           <SkillDataProvider 
             key={index}
             src={skill.image}
