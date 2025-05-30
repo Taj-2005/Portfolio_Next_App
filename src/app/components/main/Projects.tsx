@@ -21,7 +21,7 @@ const Projects = () => {
         </motion.div>
         <motion.div
         variants={slideInFromRight(0.5)}
-        className='josefin-sans text-[20px] text-gray-300 mb-10 mt-[10px] text-center'
+        className='font-josefin-sans text-[20px] text-gray-300 mb-10 mt-[10px] text-center'
         >
             Showcasing creativity, problem-solving, and innovation through code.
         </motion.div>

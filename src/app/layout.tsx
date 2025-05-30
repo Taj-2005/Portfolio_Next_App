@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Josefin_Sans,Geist_Mono } from "next/font/google";
 import StarsCanvas from '@/app/components/main/StarBackground'
-import "./globals.css";
+import "./global.css";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -12,6 +12,11 @@ const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
 });
+
+const josefinSans = Josefin_Sans({
+  variable: "--font-josefin-sans",
+  subsets: ["latin"],
+})
 
 export const metadata: Metadata = {
   title: "Taj's Portfolio",
@@ -26,7 +31,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${josefinSans.variable} ${geistMono.variable} antialiased`}
       >
         <StarsCanvas />
         {children}

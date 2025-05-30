@@ -9,12 +9,12 @@ const Navbar = () => {
     {/* Logo Section */}
     <a href="#" className="flex items-center">
       <span className="font-bold ml-2 hidden md:block text-gray-300">
-        Taj's Portfolio
+        Taj's Portfolio 
       </span>
     </a>
 
     {/* Nav Links */}
-    <div className="hidden sm:flex items-center justify-between md:mr-20 w-auto h-full">
+    <div className="hidden sm:flex items-center justify-between md:mr-20 w-auto h-full ml-25">
       <div className="flex items-center justify-between w-full border border-[#7042f861] bg-[#0300145e] px-5 py-2 rounded-full text-gray-200 gap-5">
         <a href="#" className="cursor-pointer">Home</a>
         {/* <a href="#about-me" className="cursor-pointer">About me</a> */}
