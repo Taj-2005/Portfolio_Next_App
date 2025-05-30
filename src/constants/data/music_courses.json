@@ -50,6 +50,18 @@
         },
         {
           "id": 5,
+          "title": "PricePulse",
+          "slug": "PricePulse",
+          "description": "PricePulse is a full-stack web application that helps users track real-time Amazon product prices, visualize price trends, and receive email alerts when prices drop below a custom target. It's designed to support smarter, data-driven shopping decisions.",
+          "price": 99.99,
+          "instructor": "self",
+          "isFeatured": true,
+          "github": "https://github.com/Taj-2005/PricePulse",
+          "livelink": "https://price-pulse-taj.vercel.app/",
+          "image": "/pricepulse.jpeg"
+        },
+        {
+          "id": 6,
           "title": "Treadly",
           "slug": "Interactive travel-themed quiz platform for exploring destinations and trivia.",
           "description": "Built an interactive quiz web application inspired by travel experiences. Treadly features dynamic quiz flows, custom modals for quiz and result pages, confetti animations, and intuitive navigation. Designed with a focus on user engagement and responsiveness using Next.js, Tailwind CSS, and client-side routing.",
@@ -59,18 +71,6 @@
           "livelink": "https://treadly.vercel.app/",
           "isFeatured": true,
           "image": "/treadly.jpg"
-        },
-        {
-        "id": 6,
-        "title": "DINE RESTAURANT WEBSITE",
-        "slug": "dine restaurant website",
-        "description": "A desktop-optimized restaurant website with a smooth and user-friendly design. The project includes a dynamic menu, seamless navigation, and an interactive 'Book a Table' functionality, ensuring an engaging and hassle-free browsing experience for users.",
-        "price": 99.99,
-        "instructor": "self",
-        "isFeatured": true,
-        "github": "https://github.com/Taj-2005/Dine-Restaurant",
-        "livelink": "https://dine-restaurant6.vercel.app/",
-        "image": "/restaurant.jpeg"
         },
         {
           "id": 7,
@@ -97,7 +97,19 @@
           "image": "/ux-audit-tool.jpg"
         },
         {
-          "id": 9,
+        "id": 9,
+        "title": "DINE RESTAURANT WEBSITE",
+        "slug": "dine restaurant website",
+        "description": "A desktop-optimized restaurant website with a smooth and user-friendly design. The project includes a dynamic menu, seamless navigation, and an interactive 'Book a Table' functionality, ensuring an engaging and hassle-free browsing experience for users.",
+        "price": 99.99,
+        "instructor": "self",
+        "isFeatured": true,
+        "github": "https://github.com/Taj-2005/Dine-Restaurant",
+        "livelink": "https://dine-restaurant6.vercel.app/",
+        "image": "/restaurant.jpeg"
+        },
+        {
+          "id": 10,
           "title": "TIC-TAC-TOE-GAME",
           "slug": "A simple tic tac toe game interface",
           "description": "An interactive Tic Tac Toe game that allows two players to compete in a visually engaging web-based environment. The game features a responsive UI, real-time game logic, and dynamic win detection for a seamless and fun user experience.",
@@ -109,7 +121,7 @@
           "image": "/xo.jpeg"
         },
         {
-          "id": 10,
+          "id": 11,
           "title": "Capstone - Portfolio",
           "slug": "Capstone - Portfolio",
           "description": "A responsive and modern portfolio website built as part of my capstone project at Newton School of Technology. It features a clean UI, smooth navigation, and mobile-friendly design to showcase my projects, achievements, and skills. The site includes project demos, an interactive contact form, and optimized layouts for all devices.",
