@@ -109,6 +109,18 @@
         "image": "/restaurant.jpeg"
         },
         {
+          "id": 11,
+          "title": "Capstone - Portfolio",
+          "slug": "Capstone - Portfolio",
+          "description": "A responsive and modern portfolio website built as part of my capstone project at Newton School of Technology. It features a clean UI, smooth navigation, and mobile-friendly design to showcase my projects, achievements, and skills. The site includes project demos, an interactive contact form, and optimized layouts for all devices.",
+          "price": 129.99,
+          "instructor": "Self",
+          "github": "https://github.com/Taj-2005/Capstone-My-Portfolio",
+          "livelink": "https://capstone-taj.vercel.app/",
+          "isFeatured": false,
+          "image": "/ca.jpeg"
+        },
+        {
           "id": 10,
           "title": "TIC-TAC-TOE-GAME",
           "slug": "A simple tic tac toe game interface",
@@ -122,15 +134,15 @@
         },
         {
           "id": 11,
-          "title": "Capstone - Portfolio",
-          "slug": "Capstone - Portfolio",
-          "description": "A responsive and modern portfolio website built as part of my capstone project at Newton School of Technology. It features a clean UI, smooth navigation, and mobile-friendly design to showcase my projects, achievements, and skills. The site includes project demos, an interactive contact form, and optimized layouts for all devices.",
-          "price": 129.99,
+          "title": "Blink Tac Toe",
+          "slug": "A simple Blink tac toe game interface",
+          "description": "Play Blink Tac Toe — a fun, fast-paced emoji twist on classic Tic Tac Toe! Choose emoji packs, watch symbols vanish, and battle in a magical animated UI.",
+          "price": 149.99,
           "instructor": "Self",
-          "github": "https://github.com/Taj-2005/Capstone-My-Portfolio",
-          "livelink": "https://capstone-taj.vercel.app/",
-          "isFeatured": false,
-          "image": "/ca.jpeg"
+          "github": "https://github.com/Taj-2005/BlinkTacToe",
+          "livelink": "https://blink-tac-toe-bice.vercel.app/",
+          "isFeatured": true,
+          "image": "/blinktactoe.jpeg"
         }
     ]
   }
