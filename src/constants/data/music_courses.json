@@ -86,6 +86,18 @@
         },
         {
           "id": 8,
+          "title": "Heuristic Evaluation Railweb",
+          "slug": "Heuristic Evaluation",
+          "description": "The website presents a heuristic evaluation comparing the user experiences of Germany's Deutsche Bahn and India's IRCTC railway booking platforms. It highlights strengths in Deutsche Bahn's intuitive design and error handling, while noting IRCTC's challenges with system feedback and interface consistency.",
+          "price": 149.99,
+          "instructor": "Self",
+          "github": "https://github.com/Taj-2005/Heuristical_Analysis_Railweb",
+          "livelink": "https://heuristical-analysis-railweb.vercel.app/",
+          "isFeatured": true,
+          "image": "/railweb.jpeg"
+        },
+        {
+          "id": 9,
           "title": "UX Audit Tool",
           "slug": "A tool that automatically audits landing pages for UX improvements using both rule-based logic and AI-powered analysis.",
           "description": "A web-based UX audit tool that evaluates landing pages using rule-based logic and AI-powered suggestions to improve CTA clarity, trust signals, and overall user experience.",
@@ -97,7 +109,7 @@
           "image": "/ux-audit-tool.jpg"
         },
         {
-        "id": 9,
+        "id": 10,
         "title": "DINE RESTAURANT WEBSITE",
         "slug": "dine restaurant website",
         "description": "A desktop-optimized restaurant website with a smooth and user-friendly design. The project includes a dynamic menu, seamless navigation, and an interactive 'Book a Table' functionality, ensuring an engaging and hassle-free browsing experience for users.",
@@ -110,18 +122,6 @@
         },
         {
           "id": 11,
-          "title": "Capstone - Portfolio",
-          "slug": "Capstone - Portfolio",
-          "description": "A responsive and modern portfolio website built as part of my capstone project at Newton School of Technology. It features a clean UI, smooth navigation, and mobile-friendly design to showcase my projects, achievements, and skills. The site includes project demos, an interactive contact form, and optimized layouts for all devices.",
-          "price": 129.99,
-          "instructor": "Self",
-          "github": "https://github.com/Taj-2005/Capstone-My-Portfolio",
-          "livelink": "https://capstone-taj.vercel.app/",
-          "isFeatured": false,
-          "image": "/ca.jpeg"
-        },
-        {
-          "id": 10,
           "title": "TIC-TAC-TOE-GAME",
           "slug": "A simple tic tac toe game interface",
           "description": "An interactive Tic Tac Toe game that allows two players to compete in a visually engaging web-based environment. The game features a responsive UI, real-time game logic, and dynamic win detection for a seamless and fun user experience.",
@@ -133,7 +133,7 @@
           "image": "/xo.jpeg"
         },
         {
-          "id": 11,
+          "id": 12,
           "title": "Blink Tac Toe",
           "slug": "A simple Blink tac toe game interface",
           "description": "Play Blink Tac Toe — a fun, fast-paced emoji twist on classic Tic Tac Toe! Choose emoji packs, watch symbols vanish, and battle in a magical animated UI.",
@@ -143,6 +143,18 @@
           "livelink": "https://blink-tac-toe-bice.vercel.app/",
           "isFeatured": true,
           "image": "/blinktactoe.jpeg"
+        },
+        {
+          "id": 13,
+          "title": "Capstone - Portfolio",
+          "slug": "Capstone - Portfolio",
+          "description": "A responsive and modern portfolio website built as part of my capstone project at Newton School of Technology. It features a clean UI, smooth navigation, and mobile-friendly design to showcase my projects, achievements, and skills. The site includes project demos, an interactive contact form, and optimized layouts for all devices.",
+          "price": 129.99,
+          "instructor": "Self",
+          "github": "https://github.com/Taj-2005/Capstone-My-Portfolio",
+          "livelink": "https://capstone-taj.vercel.app/",
+          "isFeatured": false,
+          "image": "/ca.jpeg"
         }
     ]
   }
