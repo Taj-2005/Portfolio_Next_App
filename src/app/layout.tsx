@@ -19,9 +19,11 @@ const josefinSans = Josefin_Sans({
 })
 
 export const metadata: Metadata = {
-  title: "Taj's Portfolio",
-  description: "Explore Taj's developer portfolio featuring modern web projects built with React, Next.js, TypeScript, and Tailwind CSS. Showcasing real-world apps, animation components, and full-stack development with MongoDB, APIs, and system design thinking. Built to demonstrate clean UI/UX, technical depth, and innovation across frontend and backend stacks.",
+  title: "Taj | Full Stack Developer Portfolio – React, Next.js, TypeScript",
+  description:
+    "Explore Taj's developer portfolio featuring real-world full-stack projects built with React, Next.js, TypeScript, Tailwind CSS, MongoDB, and APIs. Clean UI/UX and system design focused.",
 };
+
 
 export default function RootLayout({
   children,
